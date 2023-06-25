@@ -25,6 +25,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Adjust Brightness and Audio (With Fn + F1/F2/F3/F4/F5)
 -  Trackpad (Interrupts mode with VoodooI2C for AMD)
 -  Temperature often be between 60ºC and 65ºC
+-  Card Reader
 
 ## Known Issue
 -  Airdrop and Handoff won't work 
