@@ -30,7 +30,8 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 ## Known Issue
 -  Airdrop and Handoff won't work 
 -  Sleep won't work 
--  Keyboard backlight won't work 
+-  Keyboard backlight won't work
+-  Speaker is not as loud as it should be
   
   
 ## Credit: 
