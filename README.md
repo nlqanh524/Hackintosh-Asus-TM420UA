@@ -1,6 +1,8 @@
 # Hackintosh-Asus-TM420UA
 A prebuilt Hackintosh EFI for Asus TM420UA
 
+<img align="left" width="80" height="90" src="https://github.com/nlqanh524/Hackintosh-Asus-TM420UA/blob/d12e338eeb14cc3df4ba21c293dae3dc62602621/Screenshot%202023-06-25%20at%2016.06.43.png">
+
 ## Specification
 -  **Model:** Asus TM420UA-EC022T
 -  **Processor:** AMD Ryzen 5 5500U 2.1GHz
