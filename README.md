@@ -27,6 +27,9 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Temperature often be between 60ºC and 65ºC
 -  Card Reader
 
+## Note
+- To use audio jack properly, you must install [ComboJack](https://github.com/hackintosh-stuff/ComboJack) 
+
 ## Known Issue
 -  Airdrop and Handoff won't work 
 -  Sleep won't work 
