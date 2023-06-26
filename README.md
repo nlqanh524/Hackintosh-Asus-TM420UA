@@ -35,7 +35,9 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Sleep won't work 
 -  Keyboard backlight won't work
 -  Speaker is not as loud as it should be
-  
+
+## Screenshot
+- ![Screenshot on Ventura 13.4.1](https://github.com/nlqanh524/Hackintosh-Asus-TM420UA/blob/main/Ảnh%20màn%20hình%202023-06-26%20lúc%2021.43.50.png)
   
 ## Credit: 
 -  [VNO Hackintosh on Facebook](https://www.facebook.com/groups/vnohackintosh/?epa=SEARCH_BOX)
