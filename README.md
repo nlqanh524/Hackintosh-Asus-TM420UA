@@ -17,7 +17,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Graphics: AMD Radeon Vega 7
 -  Sound:
    + Speaker: Working
-   + Headphone Jack: Working
+   + Headphone Jack: Working (with [ComboJack](https://github.com/hackintosh-stuff/ComboJack) instlled)
    + Microphone: Working (with [AMD Microphone](https://github.com/qhuyduong/AMDMicrophone) installed)
 -  Wifi
 -  Bluetooth 5.0
