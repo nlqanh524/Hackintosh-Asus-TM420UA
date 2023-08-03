@@ -18,7 +18,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Sound:
    + Speaker: Working
    + Headphone Jack: Working
-   + Microphone: Not working
+   + Microphone: Working (with [AMD Microphone](https://github.com/qhuyduong/AMDMicrophone) installed)
 -  Wifi
 -  Bluetooth 5.0
 -  USB Ports
