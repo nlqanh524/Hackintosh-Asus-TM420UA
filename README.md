@@ -42,6 +42,8 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Keyboard backlight is not working 
   
 ## Credit: 
+-  [NootInc](https://github.com/NootInc) for [NootedRed](https://github.com/NootInc/NootedRed)
+-  [Apple](https://www.apple.com) for [macOS](https://www.apple.com/macos)
 -  [VNO Hackintosh on Facebook](https://www.facebook.com/groups/vnohackintosh/?epa=SEARCH_BOX)
 -  [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 -  [Website vnohackintosh.com](https://vnohackintosh.com)
