@@ -27,7 +27,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Temperature often be between 60ºC and 65ºC
 -  HDMI (no audio supported by Nred yet)
 -  Card Reader
--  Microphone is functioning but not good enough to use
+-  Microphone
 
 ## Images
 <img src="Screenshot.jpg" alt="About this Mac" title="About this Mac">
@@ -43,6 +43,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  macOS may freeze randomly 
   
 ## Credit: 
+-  [qhuyduong](https://github.com/qhuyduong) for [AMD Microphone](https://github.com/qhuyduong/AMDMicrophone)
 -  [NootInc](https://github.com/NootInc) for [NootedRed](https://github.com/NootInc/NootedRed)
 -  [Apple](https://www.apple.com) for [macOS](https://www.apple.com/macos)
 -  [VNO Hackintosh on Facebook](https://www.facebook.com/groups/vnohackintosh/?epa=SEARCH_BOX)
