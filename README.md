@@ -39,7 +39,8 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 ## Known Issue
 -  Airdrop and Handoff is not working (Intel Wifi)
 -  Sleep is not working  
--  Keyboard backlight is not working 
+-  Keyboard backlight is not working
+-  macOS may freeze randomly 
   
 ## Credit: 
 -  [NootInc](https://github.com/NootInc) for [NootedRed](https://github.com/NootInc/NootedRed)
