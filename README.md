@@ -30,7 +30,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Microphone is functioning but not good enough to use
 
 ## Images
-![About This Mac](main/Ảnh màn hình 2023-06-26 lúc 21.43.50.png)
+<img src="main/Ảnh màn hình 2023-06-26 lúc 21.43.50.png" alt="About this Mac" title="About this Mac">
 
 ## Note
 - To use audio jack properly, you must install [ComboJack](https://github.com/hackintosh-stuff/ComboJack)
