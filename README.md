@@ -27,7 +27,6 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Temperature often be between 60ºC and 65ºC
 -  HDMI (no audio supported by Nred yet)
 -  Card Reader
--  Microphone
 
 ## Images
 <img src="Screenshot.jpg" alt="About this Mac" title="About this Mac">
