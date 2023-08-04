@@ -31,6 +31,12 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Card Reader
 -  Battery lasts about 2 hours.
 
+## Known Issue
+-  Airdrop and Handoff is not working (Intel Wifi)
+-  Sleep is not working  
+-  Keyboard backlight is not working
+-  macOS may freeze randomly (increase VRAM may fix this, see **Note** for instruction)
+
 ## Images
 <img src="Screenshot.jpg" alt="About this Mac" title="About this Mac">
 
@@ -42,12 +48,6 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 
 ## Recommendation
 - You should use [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) to increase VRAM size to 1GB (minimum), by default VRAM is set to 512MB, which will freeze the system when run some apps like Spotify or Discord. Create a boot USB by following the guide in [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) then choose Device Manager, AMD CBS, NBIO Common Options, GFX Configuration then set iGPU Configuration to UMA_SPECIFIED, an option named UMA Frame Buffer Size will appear, now you can set your VRAM size, which is 512MB by default
-
-## Known Issue
--  Airdrop and Handoff is not working (Intel Wifi)
--  Sleep is not working  
--  Keyboard backlight is not working
--  macOS may freeze randomly 
   
 ## Credit
 -  [qhuyduong](https://github.com/qhuyduong) for [AMD Microphone](https://github.com/qhuyduong/AMDMicrophone)
