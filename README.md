@@ -33,7 +33,10 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 
 ## Note
 - To use audio jack properly, you must install [ComboJack](https://github.com/hackintosh-stuff/ComboJack)
-- To use microphone, you must install [AMDMỉcrophone kext](https://github.com/qhuyduong/AMDMicrophone) 
+- To use microphone, you must install [AMDMỉcrophone kext](https://github.com/qhuyduong/AMDMicrophone)
+
+## Recommendation
+- You should use [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) to increase VRAM size to 1GB (minimum), by default VRAM is set to 512MB, which will freeze the system when run some apps like Spotify or Discord. Create a boot USB by following the guide in [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) then choose Device Manager, AMD CBS, NBIO Common Options, GFX Configuration then set iGPU Configuration to UMA_SPECIFIED, an option named UMA Frame Buffer Size will appear, now you can set your VRAM size, it is 512MB by default. 
 
 ## Known Issue
 -  Airdrop and Handoff is not working (Intel Wifi)
