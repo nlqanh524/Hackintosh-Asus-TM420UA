@@ -1,7 +1,6 @@
 # Hackintosh-Asus-TM420UA
+<h2 align="center">A prebuilt Hackintosh EFI for Asus TM420UA</h2>
 <p align="center">
-  A prebuilt Hackintosh EFI for Asus TM420UA
-  
   <img src=https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-vivobook-flip-14-tm420ua_5_.jpg>
 </p>
 
@@ -36,8 +35,8 @@
 -  Battery lasts about 2 hours.
 
 ## Known Issue
--  Airdrop and Handoff is not working (Intel Wifi)
--  Sleep is not working  
+-  Airdrop and Handoff is not working (Wanna fix? Buy BCM94360NG)
+-  Sleep is not working
 -  Keyboard backlight is not working
 -  macOS may freeze randomly (increase VRAM may fix this, see **Note** for instruction)
 
