@@ -38,6 +38,7 @@
 -  Airdrop and Handoff is not working (Wanna fix? Buy BCM94360NG)
 -  Sleep is not working
 -  Keyboard backlight is not working
+-  Hardware acceleration has not worked yet
 -  macOS may freeze randomly (increase VRAM may fix this, see **Note** for instruction)
 
 ## Images
