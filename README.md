@@ -9,7 +9,7 @@
 -  **Processor:** AMD Ryzen® 5 5500U 2.1GHz
 -  **Graphic:** AMD Radeon® Vega 7
 -  **Storage:** Intel® SSDPEKNU512GZ 512GB SSD
--  **Network:** Intel® Wi-Fi 6 AX210
+-  **Network:** Intel® Wi-Fi 6 AX200
 -  **Audio:** Realtek ALC256
 -  **Screen:** 13,9" FullHD IPS Touch Screen
 -  **Touchpad:** I2C Touchpad
