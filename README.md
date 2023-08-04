@@ -6,7 +6,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  **Processor:** AMD Ryzen® 5 5500U 2.1GHz
 -  **Graphic:** AMD Radeon® Vega 7 (1GB VRAM)
 -  **Storage:** Intel® SSDPEKNU512GZ 512GB SSD
--  **Network:** Intel® Wi-Fi 6 AX200
+-  **Network:** Intel® Wi-Fi 6 AX210
 -  **Audio:** Realtek ALC256
 -  **Touchpad:** HID TPDD (I2C)
 -  **Keyboard:** PS2 keyboard
