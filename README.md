@@ -8,8 +8,9 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  **Storage:** Intel® SSDPEKNU512GZ 512GB SSD
 -  **Network:** Intel® Wi-Fi 6 AX210
 -  **Audio:** Realtek ALC256
--  **Touchpad:** HID TPDD (I2C)
--  **Keyboard:** PS2 keyboard
+-  **Screen:** FullHD IPS Touch Screen
+-  **Touchpad:** I2C Touchpad
+-  **Keyboard:** PS2 Keyboard
 -  **Card Reader:** microSD Card Reader
 -  **WebCam:** VGA Web Camera
   
@@ -23,7 +24,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Bluetooth 5.0
 -  USB Ports
 -  Adjust Brightness and Audio (With Fn + F1/F2/F3/F4/F5)
--  Trackpad (Interrupts mode with VoodooI2C for AMD)
+-  Trackpad, Touchscreen
 -  Temperature often be between 60ºC and 65ºC
 -  HDMI (no audio supported by Nred yet)
 -  Card Reader
@@ -44,7 +45,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Keyboard backlight is not working
 -  macOS may freeze randomly 
   
-## Credit: 
+## Credit
 -  [qhuyduong](https://github.com/qhuyduong) for [AMD Microphone](https://github.com/qhuyduong/AMDMicrophone)
 -  [NootInc](https://github.com/NootInc) for [NootedRed](https://github.com/NootInc/NootedRed)
 -  [Apple](https://www.apple.com) for [macOS](https://www.apple.com/macos)
