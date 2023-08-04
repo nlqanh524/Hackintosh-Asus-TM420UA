@@ -4,15 +4,16 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 ## Specification
 -  **Model:** Asus TM420UA-EC022T
 -  **Processor:** AMD Ryzen® 5 5500U 2.1GHz
--  **Graphic:** AMD Radeon® Vega 7 (1GB VRAM)
+-  **Graphic:** AMD Radeon® Vega 7
 -  **Storage:** Intel® SSDPEKNU512GZ 512GB SSD
 -  **Network:** Intel® Wi-Fi 6 AX210
 -  **Audio:** Realtek ALC256
--  **Screen:** FullHD IPS Touch Screen
+-  **Screen:** 13,9" FullHD IPS Touch Screen
 -  **Touchpad:** I2C Touchpad
 -  **Keyboard:** PS2 Keyboard
 -  **Card Reader:** microSD Card Reader
 -  **WebCam:** VGA Web Camera
+-  **Battery:** Lithium-ion 3 Cell
   
 ## Working Features
 -  Graphics: AMD Radeon Vega 7
@@ -20,7 +21,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
    + Speaker: Working
    + Headphone Jack: Working (with [ComboJack](https://github.com/hackintosh-stuff/ComboJack) installed)
    + Microphone: Working (with [AMD Microphone](https://github.com/qhuyduong/AMDMicrophone) installed)
--  Wifi
+-  Dual band Wifi
 -  Bluetooth 5.0
 -  USB Ports
 -  Adjust Brightness and Audio (With Fn + F1/F2/F3/F4/F5)
@@ -28,6 +29,7 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 -  Temperature often be between 60ºC and 65ºC
 -  HDMI (no audio supported by Nred yet)
 -  Card Reader
+-  Battery lasts about 2 hours.
 
 ## Images
 <img src="Screenshot.jpg" alt="About this Mac" title="About this Mac">
@@ -35,9 +37,11 @@ A prebuilt Hackintosh EFI for Asus TM420UA
 ## Note
 - To use audio jack properly, you must install [ComboJack](https://github.com/hackintosh-stuff/ComboJack)
 - To use microphone, you must install [AMDMỉcrophone kext](https://github.com/qhuyduong/AMDMicrophone)
+- You can enable [HiDPI](https://github.com/xzhih/one-key-hidpi) if you want to have Monitor configurations like on a real Mac
+  <img src="monitor.jpg" alt="Monitor Configurations" title="Monitor Configurations">
 
 ## Recommendation
-- You should use [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) to increase VRAM size to 1GB (minimum), by default VRAM is set to 512MB, which will freeze the system when run some apps like Spotify or Discord. Create a boot USB by following the guide in [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) then choose Device Manager, AMD CBS, NBIO Common Options, GFX Configuration then set iGPU Configuration to UMA_SPECIFIED, an option named UMA Frame Buffer Size will appear, now you can set your VRAM size, which is 512MB by default. 
+- You should use [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) to increase VRAM size to 1GB (minimum), by default VRAM is set to 512MB, which will freeze the system when run some apps like Spotify or Discord. Create a boot USB by following the guide in [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) then choose Device Manager, AMD CBS, NBIO Common Options, GFX Configuration then set iGPU Configuration to UMA_SPECIFIED, an option named UMA Frame Buffer Size will appear, now you can set your VRAM size, which is 512MB by default
 
 ## Known Issue
 -  Airdrop and Handoff is not working (Intel Wifi)
