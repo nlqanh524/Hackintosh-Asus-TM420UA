@@ -42,7 +42,7 @@
 -  macOS may freeze randomly (increase VRAM may fix this, see **Note** for instruction)
 
 ## Images
-<img src="Screenshot.jpg" alt="About this Mac" title="About this Mac">
+<img src="Screenshot.png" alt="About this Mac" title="About this Mac">
 
 ## Note
 - To use audio jack properly, you must install [ComboJack](https://github.com/hackintosh-stuff/ComboJack)
