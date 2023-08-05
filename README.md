@@ -1,7 +1,7 @@
 # Hackintosh-Asus-TM420UA
 <h2 align="center">A prebuilt Hackintosh EFI for Asus TM420UA</h2>
 <p align="center">
-  <img src=https://cdn2.cellphones.com.vn/x/media/catalog/product/l/a/laptop-asus-vivobook-flip-14-tm420ua_5_.jpg>
+  <img src="vivobook.png">
 </p>
 
 ## Specification
@@ -47,11 +47,11 @@
 ## Note
 - To use audio jack properly, you must install [ComboJack](https://github.com/hackintosh-stuff/ComboJack)
 - To use microphone, you must install [AMDMỉcrophone.kext](https://github.com/qhuyduong/AMDMicrophone)
-  <img src="micro.jpg" alt="AMD Microphone" title="AMD Microphone">
+  <img src="micro.png" alt="AMD Microphone" title="AMD Microphone">
 - You should use [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) to increase VRAM size to 1GB (minimum), by default VRAM is set to 512MB, which will freeze the system when run some apps like Spotify or Discord. Create a boot USB by following the guide in [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) then choose Device Manager, AMD CBS, NBIO Common Options, GFX Configuration then set iGPU Configuration to UMA_SPECIFIED, an option named UMA Frame Buffer Size will appear, now you can set your VRAM size, which is 512MB by default
-  <img src="graphics.jpg" alt="Graphics" title="Graphics">   
+  <img src="graphics.png" alt="Graphics" title="Graphics">   
 - You can enable [HiDPI](https://github.com/xzhih/one-key-hidpi) if you want to have Monitor configurations like on a real Mac
-  <img src="monitor.jpg" alt="Monitor Configurations" title="Monitor Configurations">
+  <img src="monitor.png" alt="Monitor Configurations" title="Monitor Configurations">
   
 ## Credit
 -  [qhuyduong](https://github.com/qhuyduong) for [AMD Microphone](https://github.com/qhuyduong/AMDMicrophone)
