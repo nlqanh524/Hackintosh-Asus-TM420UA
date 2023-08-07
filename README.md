@@ -35,7 +35,7 @@
 -  Battery lasts about 2 hours.
 
 ## Note
-- Currently, Nootedred only support from macOS Catalina to macOS Sonoma, so you can't install macOS 10.14 and below)
+- Currently, Nootedred only support from macOS Catalina to macOS Sonoma, so you can't install macOS 10.14 and below
 - To use Wifi and Bluetooth, you must install [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm) for Wifi and for Bluetooth, you need [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), [IntelBTPatcher](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), and [IntelBluetoothInjector](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (for Big Sur and older) or [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) (for Monterey and newer)
   <img src="wifi-bluetoth-kext.png">
 - On macOS 13.4 and above, Bluetooth can't be turn on and off normally. So we need to patch it. <br>
