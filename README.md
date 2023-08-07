@@ -30,21 +30,18 @@
 -  Adjust Brightness and Audio (With Fn + F1/F2/F3/F4/F5)
 -  Trackpad, Touchscreen
 -  Temperature often be between 60ºC and 65ºC
--  HDMI (no audio supported by Nred yet)
+-  HDMI (with audio support)
 -  Card Reader
 -  Battery lasts about 2 hours.
 
-## Known Issue
--  Airdrop and Handoff is not working (Wanna fix? Buy BCM94360NG)
--  Sleep is not working
--  Keyboard backlight is not working
--  Hardware acceleration has not worked yet
--  macOS may freeze randomly (increase VRAM may fix this, see **Note** for instruction)
-
-## Images
-<img src="Screenshot.png" alt="About this Mac" title="About this Mac">
-
 ## Note
+- To use Wifi and Bluetooth, you must install [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm) for Wifi and for Bluetooth, you need [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), [IntelBTPatcher](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), and [IntelBluetoothInjector](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (for Big Sur and older) or [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) (for Monterey and newer)
+  <img src="wifi-bluetoth-kext.png">
+- On macOS 13.4 and above, Bluetooth can't be turn on and off normally. So we need to patch it. <br>
+  Open your **config.plist**, go to **NVRAM** > **Add** > **7C436110-AB2A-4BBB-A880-FE41995C9F82** and add two child items: <br>
+  Key: **bluetoothInternalControllerInfo** - Type: **Data** - Value: **0000000000000000000000000000** <br>
+  Key: **bluetoothExternalDongleFailed** - Type: **Data** - Value: **00** <br>
+  <img src="bluetooth-13.5.png">
 - To use audio jack properly, you must install [ComboJack](https://github.com/hackintosh-stuff/ComboJack)
 - To use microphone, you must install [AMDMỉcrophone.kext](https://github.com/qhuyduong/AMDMicrophone)
   <img src="microphone.png" alt="AMD Microphone" title="AMD Microphone">
@@ -52,7 +49,17 @@
   <img src="graphics.png" alt="Graphics" title="Graphics">   
 - You can enable [HiDPI](https://github.com/xzhih/one-key-hidpi) if you want to have Monitor configurations like on a real Mac
   <img src="monitor.png" alt="Monitor Configurations" title="Monitor Configurations">
-  
+
+## Known Issue
+-  Airdrop and Handoff is not working (Wanna fix? Buy BCM94360NG)
+-  Sleep is not working
+-  Keyboard backlight is not working
+-  Hardware acceleration has not worked yet
+-  macOS may freeze randomly (increasing VRAM would fix most of this)
+
+## Images
+<img src="Screenshot.png" alt="About this Mac" title="About this Mac">
+
 ## Credit
 -  [qhuyduong](https://github.com/qhuyduong) for [AMD Microphone](https://github.com/qhuyduong/AMDMicrophone)
 -  [NootInc](https://github.com/NootInc) for [NootedRed](https://github.com/NootInc/NootedRed)
