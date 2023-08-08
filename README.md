@@ -43,7 +43,11 @@
   Key: **bluetoothInternalControllerInfo** - Type: **Data** - Value: **0000000000000000000000000000** <br>
   Key: **bluetoothExternalDongleFailed** - Type: **Data** - Value: **00** <br>
   <img src="bluetooth-13.5.png">
-- To use audio jack properly, you must install [ComboJack](https://github.com/hackintosh-stuff/ComboJack)
+- To use audio jack properly, you must install [ComboJack](https://github.com/hackintosh-stuff/ComboJack) <br>
+  Firstly, clone the repo of [ComboJack](https://github.com/hackintosh-stuff/ComboJack), then go to **ComboJack_Installer**, you should see something like this: <br>
+  <img src="ComboJack.png"> <br> 
+  Open **Terminal**, type *cd /path/to/ComboJack_Installer* (replace */path/to* with path to where you put your clone folder). After that, run *./install* and reboot <br>
+  <img src="Terminal-ComboJack.png">
 - To use microphone, you must install [AMDMicrophone.kext](https://github.com/qhuyduong/AMDMicrophone)
   <img src="microphone.png" alt="AMD Microphone" title="AMD Microphone">
 - You should use [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) to increase VRAM size to 1GB (minimum), by default VRAM is set to 512MB, which will freeze the system when run some apps like Spotify or Discord. Create a boot USB by following the guide in [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF) then choose Device Manager, AMD CBS, NBIO Common Options, GFX Configuration then set iGPU Configuration to UMA_SPECIFIED, an option named UMA Frame Buffer Size will appear, now you can set your VRAM size, which is 512MB by default
