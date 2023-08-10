@@ -38,7 +38,7 @@
 - Currently, Nootedred only support from macOS Catalina to macOS Sonoma, so you can't install macOS 10.14 and below
 - To use Wifi and Bluetooth, you must install [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm) for Wifi and for Bluetooth, you need [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), [IntelBTPatcher](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), and [IntelBluetoothInjector](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (for Big Sur and older) or [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) (for Monterey and newer)
   <img src="wifi-bluetoth-kext.png">
-- On macOS 13.4 and above, Bluetooth can't be turn on and off normally. So we need to patch it. <br>
+- On macOS 13.4 and above, Bluetooth may not be able to turn on and off normally. So we need to patch it. <br>
   Open your **config.plist**, go to **NVRAM** > **Add** > **7C436110-AB2A-4BBB-A880-FE41995C9F82** and add two child items: <br>
   Key: **bluetoothInternalControllerInfo** - Type: **Data** - Value: **0000000000000000000000000000** <br>
   Key: **bluetoothExternalDongleFailed** - Type: **Data** - Value: **00** <br>
