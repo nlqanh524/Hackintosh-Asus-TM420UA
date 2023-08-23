@@ -56,6 +56,7 @@
   <img src="monitor.png" alt="Monitor Configurations" title="Monitor Configurations">
 
 ## Known Issue
+-  System Infomations may have a strange issue sometimes, which cause some Apple apps to crash
 -  Airdrop and Handoff is not working (Wanna fix? Buy BCM94360NG)
 -  Sleep is not working
 -  Keyboard backlight is not working
