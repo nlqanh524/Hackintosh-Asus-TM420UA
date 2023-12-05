@@ -34,6 +34,14 @@
 -  Card Reader
 -  Battery lasts about 2 hours.
 
+## Known Issue
+-  System Infomations may have a strange issue sometimes, which cause some Apple apps to crash
+-  Airdrop and Handoff is not working (Wanna fix? Buy BCM94360NG)
+-  Sleep is not working
+-  Keyboard backlight is not working
+-  Hardware acceleration may not work in some OpenGL apps
+-  macOS may freeze randomly (increasing VRAM would fix most of this)
+
 ## Note
 - Currently, Nootedred only support from macOS Catalina to macOS Sonoma, so you can't install macOS 10.14 and below
 - To use Wifi and Bluetooth, you must install [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm) for Wifi and for Bluetooth, you need [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), [IntelBTPatcher](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), and [IntelBluetoothInjector](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) (for Big Sur and older) or [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) (for Monterey and newer)
@@ -54,14 +62,9 @@
   <img src="graphics.png" alt="Graphics" title="Graphics">   
 - You can enable [HiDPI](https://github.com/xzhih/one-key-hidpi) if you want to have Monitor configurations like on a real Mac
   <img src="monitor.png" alt="Monitor Configurations" title="Monitor Configurations">
+- To enable Hardware Acceleration in Chrome, make sure you have the latest EFI I uploaded in Release tab then go to **"chrome://flags/"**, then find **Choose ANGLE graphics backend** and enable it as **OpenGL**. After that, relaunch Chrome then you won't get graphics problem.
+  <br> <img src="Chrome-hardware-acceleration.png"> <br> 
 
-## Known Issue
--  System Infomations may have a strange issue sometimes, which cause some Apple apps to crash
--  Airdrop and Handoff is not working (Wanna fix? Buy BCM94360NG)
--  Sleep is not working
--  Keyboard backlight is not working
--  Hardware acceleration has not worked yet
--  macOS may freeze randomly (increasing VRAM would fix most of this)
 
 ## Images
 <img src="Screenshot.png" alt="About this Mac" title="About this Mac">
