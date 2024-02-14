@@ -62,7 +62,9 @@
   <img src="graphics.png" alt="Graphics" title="Graphics">   
 - You can enable [HiDPI](https://github.com/xzhih/one-key-hidpi) if you want to have Monitor configurations like on a real Mac
   <img src="monitor.png" alt="Monitor Configurations" title="Monitor Configurations">
-- To enable Hardware Acceleration in Chrome, make sure you have the latest EFI I uploaded in Release tab then go to **"chrome://flags/"**, then find **Choose ANGLE graphics backend** and enable it as **OpenGL**. After that, relaunch Chrome then you won't get graphics problem.
+- To enable Hardware Acceleration in Chrome, make sure you have the latest EFI I uploaded in Release tab, open Chrome using this command through Terminal: **"/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --disable-gpu-compositing"** <br>
+  Go to **"chrome://flags/"**, then find **Choose ANGLE graphics backend** and enable it as **OpenGL**. After that, relaunch Chrome through Terminal and you won't get graphics problem. <br>
+  I still recommend using Safari though.
   <br> <img src="Chrome-hardware-acceleration.png"> <br> 
 
 
